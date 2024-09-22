@@ -1,0 +1,111 @@
+/* index.css */
+
+.color-picker-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  /* Rounded corners for the container */
+  overflow: hidden;
+  /* Ensure child elements fit nicely */
+  background-color: #f5f5f5;
+  /* Light background for the container */
+}
+
+.upload-section,
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  width: 400px;
+  /* Fixed size */
+  height: 300px;
+}
+
+.color-display {
+  width: 200px;
+  /* Increased width */
+  height: 100px;
+  /* Increased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow */
+  transition: transform 0.3s ease;
+  /* Transition for hover effect */
+}
+
+.color-display:hover {
+  transform: scale(1.05);
+  /* Slightly increase size on hover */
+}
+
+.color-display p {
+  color: #333;
+  /* Darker text color */
+  font-size: 1.2rem;
+  /* Slightly larger font size */
+  margin: 0;
+  /* Remove default margin */
+  font-weight: bold;
+  /* Make it bold */
+}
+
+.info-section {
+  margin-left: 20px;
+  /* Space between sections */
+}
+
+h1,
+h2 {
+  color: #444;
+  /* Darker color for headings */
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Space below main title */
+}
+
+h2 {
+  margin-top: 20px;
+  /* Space above section titles */
+}
+
+label {
+  font-size: 1.2rem;
+  /* Adjust label size */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  /* Adjust input size */
+}
+
+.info-section p {
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
